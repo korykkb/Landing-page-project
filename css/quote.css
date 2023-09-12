@@ -1,22 +1,24 @@
-.quote.div {
+.quote-div {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: #E5E7EB;
+    margin-top: 50px;
+    padding: 100px 300px;
     
 }
 
-.quote-text-div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0px 100px;
+.quote-text {
+    font-size: 26px;
+    font-style: light italic;
+    color: #1F2937;
 }
 
 
 .quote-author-div {
     display: flex;
     justify-content: flex-end;
-    margin-right: 120px;
-    margin-top: -30px;
+    margin-left: 300px;
+    margin-top: -25px;
 }

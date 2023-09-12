@@ -1,25 +1,36 @@
 .home {
     display: flex;
     gap: 50px;
-    padding: 50px;
+    padding: 100px 0px;
     background-color: #1F2937;
+}
+
+.home-text,
+.home-title,
+.home-button {
+    margin-left: 100px;
 }
 
 .home-text {
     display: flex;
     flex-direction: column;
+   
 }
 
 .home-title {
     color: white;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 900;
     margin: 0;
 }
 
 .home-body {
     color: white;
-    font-weight: normal;
+}
+
+.home-body2 {
+    color: white;
+
 }
 
 .home-button {
@@ -31,5 +42,5 @@
 }
 
 .home-image {
-    display: flex;
+    width: 323px;
 }

@@ -1,6 +1,8 @@
 .body {
     display: flex;
     flex-direction: column;
+    padding: 50px 0px;
+    
 }
 
 .body-title-div {
@@ -15,7 +17,7 @@
 
 .body-content-div {
    display: flex;
-   margin: 30px 0px;
+   justify-content: center;
    gap: 30px;
 }
 

@@ -1,5 +1,6 @@
 .signup-div {
     margin-top: 30px;
+    padding: 50px 0px;
     
 }
 
@@ -18,7 +19,7 @@
 }
 
 .signup-text-title {
-    
+    font-size: 22px;
 }
 
 .signup-button-div {
